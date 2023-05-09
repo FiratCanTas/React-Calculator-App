@@ -1,0 +1,61 @@
+*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background: linear-gradient(to right, #005AA7,#FFFDE4);
+}
+
+.calculator-grid{
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+    grid-template-columns: repeat(4, 6rem); /*4 adet 6rem lik col olusturdum*/
+    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem); /*row larimin min boyutu 7rem max auto yani content icerigine gore ayarlanacak*/
+}
+
+.calculator-grid > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+
+}
+
+.calculator-grid > button:hover,
+.calculator-grid > button:focus{
+
+     background-color: rgba(255, 255, 255, .9);
+}
+
+
+.span-two{
+    grid-column: span 2;
+}
+
+.output{
+
+    /* grid-column-start: 1;
+    grid-column-end: -1; */
+    grid-column: 1 / -1; /*Yukaridakiler gibi kisaca 1. line dan basla -1 yani en sona kadar kapla demis oldum*/
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand{
+    color: white;
+    font-size: 2.5rem;
+}
