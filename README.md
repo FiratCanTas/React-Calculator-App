@@ -4,7 +4,6 @@
    <img src="https://cdn.pixabay.com/photo/2022/05/08/03/10/calculator-7181192_1280.png" width="90" height="90">
   </a>
   <h3 align="center">Calculator App</h3>
-
 </p>
 
 ![Downloads](https://img.shields.io/github/downloads/FiratCanTas/React-Calculator-App/total) ![Contributors](https://img.shields.io/github/contributors/FiratCanTas/React-Calculator-App?color=dark-green) ![Forks](https://img.shields.io/github/forks/FiratCanTas/React-Calculator-App?style=social) ![Stargazers](https://img.shields.io/github/stars/FiratCanTas/React-Calculator-App?style=social) ![Issues](https://img.shields.io/github/issues/FiratCanTas/React-Calculator-App) ![License](https://img.shields.io/github/license/FiratCanTas/React-Calculator-App) 
